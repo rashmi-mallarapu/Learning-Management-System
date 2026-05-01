@@ -38,3 +38,8 @@ npm run dev
 ## Deployment Notes
 
 This frontend is production-ready. All data is sourced from the backend API. Ensure backend services are properly configured before deploying.
+
+## 🎥 Project Demo & Explanation
+
+- 📌 [Project Demo Video](https://drive.google.com/file/d/1cvgGvh2W8ruLwo6u34W9li8_WTQRsi-l/view?usp=drivesdk)
+- 📌 [Code Explanation Video](https://drive.google.com/file/d/13i2411MVIYXrxChMWAEhHh3kNK4Y74ct/view?usp=drivesdk)
