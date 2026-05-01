@@ -1,45 +1,96 @@
-# LMS Frontend
+# 🎓 Learning Management System (LMS)
 
-Frontend client for the Learning Management System (LMS), built with React + Vite + Tailwind.
+## 📌 Project Description
 
-## Current Status
+This project is a full-stack Learning Management System (LMS) designed to manage online education efficiently. It supports multiple roles such as learners, instructors, and administrators, providing a complete digital learning environment.
 
-- Role-based routing fully implemented for learner, instructor, and admin flows
-- Redux store and feature slices fully integrated with backend APIs
-- All data is fetched from the backend database in real-time
-- Video/Audio calling integrated with Agora RTC platform
-- Full messaging and communication features enabled
+The system enables course creation, assignment management, real-time communication, quizzes, and performance tracking.
 
-## Run Locally
+---
+
+## 🚀 Features
+
+* Role-based access (Admin, Instructor, Learner)
+* Course creation and management
+* Assignments and submissions
+* Quiz and evaluation system
+* Real-time messaging and notifications
+* Video/Audio communication (Agora RTC integration)
+* Progress tracking and analytics dashboard
+* Certificate generation and verification
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* Redux Toolkit
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### Other Tools
+
+* Agora RTC (Video/Audio calling)
+* Socket.IO (Real-time communication)
+
+---
+
+## ▶️ How to Run the Project
+
+### Frontend
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Scripts
+### Backend
 
-- `npm run dev` - start development server
-- `npm run build` - production build
-- `npm run preview` - preview production build
-- `npm run lint` - run ESLint
+```bash
+cd backend
+npm install
+npm start
+```
 
-## Frontend Architecture
+---
 
-- `src/main.jsx` bootstraps app
-- `src/App.jsx` provides Redux + Router wrappers
-- `src/AppRouter.jsx` defines role-based route trees
-- `src/layouts/*` contains role-specific shell layouts
-- `src/pages/*` contains page-level modules
-- `src/features/*` contains Redux slices/state
-- `src/components/*` contains shared and reusable UI components
-- `src/services/*` contains API service modules for backend communication
+## 🔗 GitHub Repository
 
-## Deployment Notes
+👉 https://github.com/rashmi-mallarapu/Learning-Management-System
 
-This frontend is production-ready. All data is sourced from the backend API. Ensure backend services are properly configured before deploying.
+---
 
 ## 🎥 Project Demo & Explanation
 
-- 📌 [Project Demo Video](https://drive.google.com/file/d/1cvgGvh2W8ruLwo6u34W9li8_WTQRsi-l/view?usp=drivesdk)
-- 📌 [Code Explanation Video](https://drive.google.com/file/d/13i2411MVIYXrxChMWAEhHh3kNK4Y74ct/view?usp=drivesdk)
+* 📌 [Project Demo Video](https://drive.google.com/file/d/1cvgGvh2W8ruLwo6u34W9li8_WTQRsi-l/view?usp=drivesdk)
+* 📌 [Code Explanation Video](https://drive.google.com/file/d/13i2411MVIYXrxChMWAEhHh3kNK4Y74ct/view?usp=drivesdk)
+
+---
+
+## 📦 Deployment Notes
+
+This project is production-ready. All data is fetched from the backend APIs. Ensure backend services and environment variables are properly configured before deployment.
+
+---
+
+## 📁 Project Structure
+
+* frontend/ → React frontend
+* backend/ → Node.js backend
+* src/components/ → Reusable UI components
+* src/pages/ → Application pages
+* src/features/ → Redux state management
+* src/services/ → API integrations
+
+---
